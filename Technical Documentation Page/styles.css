@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+  }
+  
+  html{
+    display: block;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #edf2f4;
+    color: #212529;
+  }
+  
+  
+  #main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 280px;
+    max-width: 300px;
+    height: 100%;
+    border-right: 2px solid #212529;
+   
+  }
+  
+  #main-header>h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 0;
+    color: #6f1d1b;
+  }
+  
+  #main-header ul {
+    height: 90%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    list-style: none;
+  }
+  
+  #main-header ul li {
+    border-top: 1px solid grey;
+  }
+  
+  #main-header a {
+    display: block;
+    padding: 10px 30px;
+    color: #212529;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #main-header a:hover {
+    color: #6f1d1b;
+  }
+  
+  #main-doc {
+    position: absolute;
+  margin-left: 320px;
+  padding: 30px;
+  }
+  
+  #main-doc header {
+    text-align: left;
+    color: #6f1d1b;
+    margin: 0;
+    font-size: 2em;
+    padding: 1rem 0;
+  }
+  
+  
+  section article p {
+    color: #343a40;
+    margin: 20px;
+    font-size: .98em;
+  }
+  
+  section ul li {
+    margin: 20px 0 0 40px;
+  }
+  
+  code {
+    display: block;
+    text-align: left;
+    background-color: #dee2e6;
+    padding: 20px;
+    margin: 30px;
+    margin-bottom:10px;
+    border-radius:10px;
+  }
+  
+  #main-doc .main-section:last-child .main-article ul {
+    margin: .5rem 0 1.5rem 3rem;
+    padding: 0;
+  }
+  
+  a:hover {
+    color: #6f1d1b;
+  }
+  
+  a {
+    color: #343a40;
+    cursor: pointer;
+  }
+  
+  @media (max-width:700px) {
+     #main-header {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      margin: 0;
+      max-width: 95%;
+      max-height: 400px;
+    }
+  
+    #navbar {
+      width: 100%;
+      margin: 0;
+    }
+  
+    #main-doc {
+      position: relative;
+      margin-left: 0px;
+      padding: 20px 30px;
+      margin-top: 420px;
+    }
+  }
