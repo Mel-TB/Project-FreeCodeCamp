@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2{
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 10px;
+  font-size: 50px;
+  }
+  
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-right:  auto;
+    margin-left: auto;
+    border-radius: 10px;
+  }
+  
+  #img-caption {
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+  }
+  .background {
+    background-color: #0a0908;
+    box-shadow: 5px 12px 12px 3px #343a40;
+  }
+  
+  h2 {
+    color: #e9ecef;
+  padding-top: 30px;
+  font-size: 50px;
+  
+  }
+  
+  
+  p {
+    margin: 0 0 13px 0;
+    }
+  
+    a {
+  color: #b87c89;
+  text-decoration: none;
+    }
+  
+    .container {
+      width: 95%;
+  max-width: 100%;
+      margin: 0 auto;
+      background-color: #212529;
+    }
+  
+    .section {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  position: relative;
+    }
+  
+  .section-years {
+    font-size: 10vw;
+    font-weight: 600;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    height: calc(10vw + 20px);
+    transition: all 0.2s ease-in;
+    color: #ca3a29;
+    font-family: Play, sans-serif;
+  }
+  
+  .section-content {
+    border-top: 2px solid #000;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+    padding: 15px 0;
+  }
+  
+  .album{
+    font-weight: 600;
+    color: #b87c89;
+    font-family: Montserrat;
+  }
+  
+  .resume {
+    line-height: 26px;
+    color: #ced4da;
+    font-family: Montserrat;
+  }
+  
+  .music {
+    text-align: center;
+    color: #ced4da;
+    font-size: 20px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .list {
+  margin-left: 10%;
+  }
+  
+  li {
+    color: #b87c89;
+    font-family: Play, sans-serif;
+    line-height: 3;
+  }
